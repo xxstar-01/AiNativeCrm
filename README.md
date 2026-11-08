@@ -234,6 +234,8 @@ test -e .env.local || cp .env.example .env.local
 test -e .env || touch .env
 ```
 
+> 以上命令为 bash 语法，Windows 请在 Git Bash 或 WSL 中执行。
+
 按[开发配置指南](docs/SETUP.md)填写 Supabase、Redis、应用地址及服务端加密配置，并初始化数据库：
 
 ```bash
